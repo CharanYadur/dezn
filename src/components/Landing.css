@@ -1,8 +1,9 @@
-.banner p{
+.banner p {
     font-size: 20px;
     color: #fff;
 }
-.Learn-more{
+
+.Learn-more {
     color: #000;
     background: #fff;
     border: none;
@@ -11,7 +12,8 @@
     font-weight: 700;
     padding: 15px;
 }
-.Learn-more:hover{
+
+.Learn-more:hover {
     color: #fff;
     background: #1400FF;
     border: none;
@@ -20,49 +22,65 @@
     font-weight: 700;
     padding: 15px;
 }
-.stat-item p, .stat-item h3{
+
+.stat-item p,
+.stat-item h3 {
     color: #000;
     text-align: left;
 }
-.who{
+
+.who {
     color: #FE001B;
     font-size: 60px;
     font-weight: 700;
 }
-.weare{
+
+.weare {
     color: #393535;
     font-size: 60px;
     font-weight: 700;
     text-align: left;
 }
-.paragraph{
+
+.paragraph {
     color: #616161;
     font-size: 18px;
     text-align: left;
 
 }
-.Learn-more2{
-     color: #000;
+
+.Learn-more2 {
+    color: #000;
     background: #fff;
     border-radius: 50px;
     font-size: 23px;
     font-weight: 700;
     padding: 10px;
 }
-.Learn-more2:hover{
- color: #fff;
+
+.Learn-more2:hover {
+    color: #fff;
     background: #1400FF;
     border: none;
     font-size: 23px;
 }
-.redDiv{
+
+.redDiv {
     max-width: 900px;
     background-color: #FF0000;
     border-radius: 21px;
     padding: 40px;
     position: relative;
 }
-.redDiv p{
+
+.redDiv p {
     color: #fff;
+}
+
+.hero-wrapper {
+  position: relative;
+  width: 100%;
+  height: 95vh;
+  overflow: hidden; /* Hides anything that overflows */
 }
 

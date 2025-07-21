@@ -31,7 +31,7 @@
 
   const CardContent = () => {
     return (
-      <div style={{ position: 'relative', width: '100%', height: '95vh' }}>
+     <div className="hero-wrapper">
         <video
           autoPlay
           loop
@@ -49,7 +49,7 @@
 
         <div className='banner' style={{
           position: 'absolute',
-          top: '60%',
+          top: '62%',
           left: '50%',
           transform: 'translate(-50%, -50%)',
           zIndex: 1,
@@ -64,7 +64,7 @@
             Learn More <span><FaArrowRight className='ms-2' /></span>
           </button>
 
-          <div className="row mt-5 d-flex bg-white text-black py-4" style={{
+          <div className="row mt-5 d-flex bg-white text-black px-5 py-4" style={{
             maxWidth: '900px',
             margin: '2rem auto 0',
             borderRadius: '15px 15px 0px 5px'
