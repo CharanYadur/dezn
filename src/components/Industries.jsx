@@ -13,9 +13,9 @@ import IndustriesImg from "../assets/IndustriesImg.png"
 const Industries = () => {
     return (
         <div>
-            <div className='row p-3' style={{position:"relative"}}>
-                <div className="col-lg-9">
-                    <div style={{maxWidth:"500px", paddingLeft: "80px"}}>
+            <div className='row industryDiv p-3' style={{ position: "relative" }}>
+                <div className="col-md-9">
+                    <div style={{ maxWidth: "500px", paddingLeft: "80px" }}>
                         <p className='who'>Who <span className='weare'>we are</span></p>
                         <p className='paragraph'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
                     </div>
@@ -68,10 +68,10 @@ const Industries = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-lg-3'>
-                    <div style={{position:"absolute", top:30, right:130}}>
-                    <img src={IndustriesImg} width={550} alt="" />
-                </div>
+                <div className='col-md-3 '>
+                    <div style={{ position: "absolute", top: 30, right: 130 }} className='industryImage'>
+                        <img src={IndustriesImg} width={550} alt="" />
+                    </div>
                 </div>
 
 
